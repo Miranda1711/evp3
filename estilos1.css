@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Pacifico&family=Poppins:wght@300;400;500;600;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ffe0ff;
+
+
+   }
+   #contenedor{
+       width: 65%;
+       margin: auto;
+       height: 2300px;
+       
+   }
+   
+   #cabecera{
+       position: sticky;
+       top: 0;
+       background-color:#ffe0ff;;
+       z-index: 20;
+     
+       border:2px dotted palevioletred; 
+      
+   }
+   header a{
+    text-decoration: none;
+   }
+   h1{
+       padding: 20px;
+       text-align: center;
+       font-size: 5em;
+       letter-spacing:3px;
+       -webkit-text-fill-color:#f7b5d4;
+       -webkit-text-stroke:1px #f157b4;
+       text-shadow: 3px 3px 3px rgb(230, 74, 170);
+       font-style: italic;
+       letter-spacing: 3px;
+       font-family: "Pacifico", cursive;
+
+       }
+       .menu{
+           display: flex;
+           list-style-type: none;
+           justify-content: center;
+           margin: 20px;
+       }
+       
+       .menu li a{
+           text-decoration: none;
+           padding: 10px;
+           margin: 5px;
+           text-transform: uppercase;
+           color: rgb(219, 39, 150);
+           font-size: 20px;
+           font-family: "Sour Gummy", sans-serif;
+           transition: 0.3s ease;
+           
+       }   
+       .menu li a:hover{
+           color:rgb(187, 16, 110);
+           box-shadow:  0px 6px 4px -3px rgb(187, 16, 110)
+           ;
+           background-color: white;
+           text-shadow: 2px 2px 2px  rgba(230, 115, 186, 0.6);
+           border-radius: 20px;
+           cursor: pointer;
+       }
+       #contenido{
+           text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+       }
+       .imagen img{
+           width: 100%;
+           opacity: 0.6;
+       }
+   .imagen{
+    border: 2px solid rgb(233, 127, 180);
+    padding: 8px;
+border-radius: 20px;
+box-shadow:  5px 6px 5px -2px rgba(224, 116, 175, 0.75);
+
+
+   }
+   
+   .titulo{
+       padding: 15px;
+       margin-bottom: 10px;
+
+   
+   }
+   .titulo div img{
+       width: 50px;
+       border-radius: 50%;
+   }
+   .titulo div{
+       float: right;
+       text-align: center;
+       font-size: 0.9em;
+   }
+   #contenido p{
+       text-align: justify;
+       padding: 10px;
+       font-size:15px;
+   color: #d8749e;
+   font-weight: 400;
+   font-family: "Poppins", serif;
+   }
+h5{
+    color: #d8749e;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+   
+   h2{
+       font-size:33px;
+       margin: 6px;
+       text-align: center;
+       letter-spacing: 2px;
+       font-weight: 600 bold;
+       -webkit-text-fill-color:white;
+       font-family: "Lobster", sans-serif;
+       -webkit-text-stroke:1px #f7b5d4;
+       font-style: oblique;
+       
+   }
+       .imagen2{
+           width: 150px;
+           float: left;
+           margin: 10px;
+       }
+       .imagen2,.imagen3{
+       border-radius: 20px;
+       box-shadow: 4px 4px 5px -2px rgba(0,0,0,0.75);
+
+       }
+       .imagen3{
+           width: 150px;
+           float: right;
+           margin: 10px;
+       }
+       span{
+        font-style: italic;
+       }
+       .redes{
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+     
+    }
+    .redes li i{
+        font-size: 25px;
+        border-radius: 20px;
+        padding: 5px;
+        margin: 15px;
+        background-color:#ee3893;
+        color: white;
+        border: 2px solid white;
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+    .redes li i:hover{
+        background-color: white;
+        border: #e4348c;
+        color:#e4348c ;
+        box-shadow: 4px 4px 5px 0px rgba(146, 43, 91, 0.75);
+
+        
+    }
+    
+    #galeria {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        column-count: 3;
+      
+    }
+    .muestra {
+        width: 30%;
+        margin:10px;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+    .muestra  img{
+        width: 100%;
+        width: 100%;
+        border-radius: 10px;
+        filter: brightness(67%);
+        box-shadow: 5px 4px 5px -3px rgba(230, 94, 175, 0.75);
+        border: 2px solid white;
+        transition: 0.3s ease-in-out;
+
+    }
+    .muestra img:hover{
+        filter: brightness(100%);
+        cursor: pointer;
+
+    }
+ 
+  h3{
+   padding: 5px;
+   font-family: "Dancing Script", cursive;
+   color: #e47aaa;
+
+  }
+  .footer{
+    padding-top: 30px;
+  }
+ 
+
+
+.video {
+    position: relative;
+    padding-top: 38%; 
+    margin: 20px 0;
+    max-width: 76%; 
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 25px;
+    border: 3px solid white;
+    box-shadow: 5px 4px 5px -3px rgba(218, 53, 152, 0.75);
+}
+
+
+.video2 {
+    position: relative;
+    width: 80%; 
+    max-width: 600px; 
+    margin: 20px auto;
+    aspect-ratio: 16 / 9; 
+    border-radius: 25px; 
+    overflow: hidden; 
+    border: 3px solid white;
+    box-shadow: 5px 4px 5px -3px rgba(218, 53, 152, 0.75);
+}
+
+.video2 iframe {
+    width: 100%; 
+    height: 100%; 
+}
+
+
+
+  p {
+    animation-duration: 4s;
+    animation-name: parrafo;
+  }
+  
+  @keyframes parrafo {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

@@ -1,0 +1,114 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  
+
+}
+body{
+    display: block;
+}
+main{
+       
+   background: linear-gradient( rgba(71, 61, 68, 0.4), rgba(24, 22, 18, 0.4)),url(https://media.revistagq.com/photos/649d37762a5c0477930fc45b/16:9/w_2560%2Cc_limit/rev-1-BAR-TT2-006_High_Res_JPEG.jpeg) no-repeat center center fixed ;
+   background-size:cover;
+min-height: 100vh;
+}
+h1{
+    font-size: 6em;
+    padding-bottom: 6px;
+    -webkit-text-fill-color:#d48bac;
+          -webkit-text-stroke:1px #e93fa5;
+          font-style: italic;
+          letter-spacing: 3px;
+          font-family: "Pacifico", cursive;
+          text-shadow: 3px 3px 3px rgb(223, 69, 164);
+          text-shadow: 3px 3px 3px rgb(230, 74, 170);
+
+
+}
+span{
+    font-style: italic;
+    color: #e4c049;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    color: #ffe0ff  ;
+}
+#contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.menu li{
+    padding: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 7px;
+    margin: 10px;
+    color: #ffe0ff;
+    font-size: 20px;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    transition: 0.7s;
+font-family: "Poppins", serif;
+
+
+
+}
+.menu li a:hover{
+ background-color: #ffe0ff;
+ border-radius: 20px;
+ border: 1px solid white;
+ box-shadow: 4px 4px 5px 0px rgba(241, 238, 238, 0.75);
+
+ color:#ce4379;
+}
+.redes1{
+    margin-top: 30px;
+}
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+ 
+}
+.redes li i{
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 15px;
+    background-color:#e093b9;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.redes li i:hover{
+    background-color: white;
+    border: #e093b9;
+    color: #e093b9;
+    box-shadow: 4px 4px 5px 0px rgba(146, 43, 91, 0.75);
+    
+    
+}
